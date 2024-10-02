@@ -142,6 +142,34 @@ ul li a:hover {
     line-height: 20px;
 }
 
+.content2 img{
+    border-style:groove;
+    border-radius: 100px;
+    height: 100;
+    width: 100;
+    margin-left: 18%;
+    margin-bottom: 10;
+    border-color: gold;
+}
+.content3 img{
+    border-style:groove;
+    border-radius: 100px;
+    height: 100;
+    width: 100;
+    margin-left: 18%;
+    margin-bottom: 10;
+    border-color: gold;
+}
+.content4 img{
+    border-style:groove ;
+    border-radius: 100px;
+    height: 100;
+    width: 100;
+    margin-left: 18%;
+    margin-bottom: 10;
+    border-color: gold;
+}
+
 
 
 
