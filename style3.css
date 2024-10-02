@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    background:bisque;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.main2 {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.main3 {
+    width: 200px;   
+    float: left;
+    height: 70px;
+}
+.logo {
+    color: orange;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    transition: .3 ease-in-out;
+}
+.logo:hover{
+    color: black;
+}
+.m {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+    color: orange;
+}
+.content{
+    padding-top: 8%;
+    float: left;
+    padding-left: 16%;
+    width: 500;
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: double underline ;
+    text-decoration-thickness: 2px ;
+}
+.content p{
+    font-weight: bolder;
+    font-size:medium;
+    width: 400;
+    text-align: center;
+    line-height: 20px;
+}
+.content button{
+    background: yellow;
+    position:absolute;
+    margin-left: 12%;
+    line-height: 20px;
+    margin-top: 10px;
+    transition: .1s ease-in-out;
+    
+}
+.content .btn:hover{
+    background-color: white;
+}
+
+.content2{
+    float: left;
+    padding-top: 10%;
+    padding-left: 1%;
+    width: 380;
+}
+.content2 h1{
+    text-decoration: double underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration-thickness:2px;
+}
+.content2 p{
+    font-weight: bolder;
+    font-size:medium;
+    line-height: 20px;
+}
+.content3{
+    float: left;
+    padding-top: 10%;
+    padding-left: 1%;
+    width: 380;
+}
+.content3 h1{
+    text-decoration: double underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration-thickness:2px;
+}
+.content3 p{
+    font-weight: bolder;
+    font-size:medium;
+    line-height: 20px;
+}
+.content4{
+    float: left;
+    padding-top: 10%;
+    padding-left: 1%;
+    width: 380;
+}
+.content4 h1{
+    text-decoration: double underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration-thickness:2px;
+}
+.content4 p{
+    font-weight: bolder;
+    font-size:medium;
+    line-height: 20px;
+}
+
+
+
+
