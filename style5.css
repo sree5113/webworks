@@ -58,3 +58,36 @@ ul li a {
 ul li a:hover {
     color: orange;
 }
+
+.content h1{
+    padding-top:15%;
+    padding-left: 5%;
+    font-size: 100px;
+
+}
+.content .co{
+    padding-left: 5%;
+}
+.content .btn{
+    transition: 0.1 ease-in-out;
+    background-color: yellow;
+    font-size: 25;
+}
+
+.content .btn:hover{
+    background-color: orange;
+}
+
+.img{
+    float: right;
+    padding-right: 10%;
+}
+
+footer{
+    background-color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+}
+

@@ -131,3 +131,10 @@ ul li a:hover {
     
 }
 
+footer{
+    background-color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+}

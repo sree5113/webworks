@@ -169,6 +169,14 @@ ul li a:hover {
     margin-bottom: 10;
     border-color: gold;
 }
+footer{
+    background-color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+}
+
 
 
 
