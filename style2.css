@@ -124,10 +124,14 @@ ul li a:hover {
     padding-right: 35px;
 }
 .image img{
-    border-radius: 20px;
-    border-color: black;
-    border-style: groove;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 40%;
+    border-bottom-style: dotted;
+    border-bottom-color: white;
+    border-top-color: white;
     border-width: 10px;
+    border-bottom-style: groove;
+    border-top-style:ridge;
     
 }
 
