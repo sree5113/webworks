@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     height: 109vh;
+    background-color:rgb(255, 255, 255);
 }
 
 .navbar {
@@ -25,7 +26,7 @@
  
 .logo {
     color: lightskyblue;
-    font-size: 35px;
+    font-size: 3spx;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 20px;
     float: left;
@@ -81,7 +82,46 @@ ul li a:hover {
 .content2{
     text-align: center;
     padding-top: 20%;
+    font-weight: bolder;
 }
 .content2 label{
+    padding-right: 6%;
+}
+.content2 input{
+    border-radius: 100px;
+}
+.content3{
+    text-align: center;
+    padding-top:20px;
+    font-weight: bolder;
+}
+.content3 input{
+    border-radius: 100px;
+}
+.content3 label{
+    padding-right:2%;
+}
 
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition:0.4s ease;
+    margin-left: 40%;
+}
+.btn:hover{
+    background: white;
+    color:orange;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
