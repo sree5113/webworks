@@ -1,20 +1,17 @@
-<html>
-
-</html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>WebPage Design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive WebPage Design</title>
     <link rel="stylesheet" href="style5.css">
 </head>
-
 <body>
-    <div class="main">
-        <div class="main2">
-            <div class="main3">
-                <h2 class="logo"><a style="color: orange; font-style: italic; text-decoration: none;"
-                        href="index.html">PraRoz</a></h2>
-            </div>
-            <div>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h2 class="logo"><a href="index.html">PraRoz</a></h2>
+            <nav class="navbar">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -22,56 +19,44 @@
                     <li><a href="blog.html">BLOG</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
-            </div>
-            <div class="content">
-                <h1>Contact Us</h1>
-                <div class="co">
-                    <input style="border-radius: 100px;border-color: white;" type="text" size="60"
-                        placeholder="Name"><br></br>
-                    <input style="border-radius: 100px;border-color: white;" type="email" size="60"
-                        placeholder="Email"><br></br>
-                    <textarea name="" id="" cols="50" rows="10" placeholder="Message"></textarea><br></br>
-                    <button class="btn">Send Message</button>
-                </div>
-            </div>
+            </nav>
         </div>
-        <div class="img">
-            <img src="contact us.jpg" alt="" width="400">
-        </div>
-    </div>
-</body>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-3 a">
-                <h5>Beautifully  designed One Pager (built with Webflow) for Leya, an
-                    AI-assisted legal startup. <br>
-                    I can’t quite pinpoint the design aesthetic of the background video – but I love it!</h5>
-            </div> <BR>
-            <div class="col-3 b">Address <BR></BR>
-                Office: <br>
-                #96, 3rd Floor,R J Garden, Marathahalli ORR
-                Bangalore - 560 037 <br></br>
-                
-                Phone: (91) 8660 721 921 <br>
-                Land Line: (08) 4370 8244 <br>
-                Email: meet@greetlabs.com
-            </div> <BR></BR>
-            <div class="col-3 c">
-                <h4>About the company</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati reprehenderit cupiditate
-                    soluta eaque ducimus dolorum cumque voluptate iure! Quas, nobis omnis voluptate minus hic
-                    iusto fuga? Voluptate, expedita voluptatem. Laudantium?</p>
-            </div> <BR></BR>
-            <div class="col-3 d">
-                <h3>Help</h3>
-                <a href="./terms.html" style="color: BLACK;">Terms & Conditions</a><br>
-                <a href="./privacy.html" style="color: black;">Privacy policy</a><br>
-                <a href="./cookies.html" style="color: black;">Cookies</a><br>
-                <a href="./payment.html" style="color: black;">Payment methods</a><br>
-            </div>
-        </div>
-    </div>
-</footer>
+    </header>
 
+    <!-- Main Content Section -->
+    <main class="main-content">
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <form class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <aside class="image-section">
+            <img src="./contact us.jpg" alt="Contact Us">
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>Beautifully designed one-pager for Leya, an AI-assisted legal startup.</p>
+            </div>
+            <div class="footer-contact">
+                <p><strong>Address:</strong> #96, 3rd Floor, R J Garden, Marathahalli ORR, Bangalore - 560 037</p>
+                <p><strong>Phone:</strong> (91) 8660 721 921</p>
+                <p><strong>Email:</strong> meet@greetlabs.com</p>
+            </div>
+            <div class="footer-links">
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="cookies.html">Cookies</a>
+                <a href="payment.html">Payment Methods</a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>

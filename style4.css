@@ -1,112 +1,171 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .main {
     width: 100%;
-    background:bisque;
+    background: bisque;
     background-position: center;
     background-size: cover;
-    height:170vh;
+    padding-bottom: 20px;
 }
+
 .main2 {
-    width: 1200px;
-    height: 75px;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color:bisque;
+    justify-content: flex-start;
 }
-.main3 {
-    width: 200px;   
-    float: left;
-    height: 70px;
-}
-.logo {
+
+.logo a {
     color: orange;
     font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    transition: .3 ease-in-out;
+    font-style: italic;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
-.logo:hover{
+
+.logo a:hover {
     color: black;
 }
-.m {
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-ul {
-    float: left;
+
+.nav ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 30px;
+    margin-left: auto; /* Allows alignment to left while keeping space on larger screens */
 }
-ul li {
+
+.nav ul li {
     list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
 }
-ul li a {
+
+.nav ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
     font-weight: bold;
-    transition: 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
 }
-ul li a:hover {
+
+.nav ul li a:hover {
     color: orange;
 }
 
-.content {
-    padding-top: 10%;
-}
-.content h2 {
+.content, .content2, .content3 {
     text-align: center;
-    text-decoration: double underline;
-    font-weight: bold;
-}
-.content p{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-.content2 h2 {
-    padding-top: 10%;
-    width: auto;
-}
-.img{
-    float:right;
-    padding-top: 30%;
-    padding-right: 10px;
-}
-.content3 h2{
-    width: 730;
-}
-.content4 h2{
-    width: auto;
-}
-footer{
-    background-color:bisque;
-    font-family: Arial, Helvetica, sans-serif;
-    border-color: black;
-    border-style: double;
-    border-width: 5px;
+    padding: 40px 20px;
+    margin: 10px auto;
+    max-width: 800px;
 }
 
-@media(max-width:768px){
+.img {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: bisque;
+    padding: 20px;
+    border-top: 5px double black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-col {
+    width: 200px;
+    margin: 10px 0;
+}
+
+.footer-col h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.footer-col a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
     .main2 {
+        flex-direction: row;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .nav ul {
+        gap: 15px;
+    }
+
+    .content, .content2, .content3 {
+        padding: 20px 15px;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .content, .content2, .content3 {
+        padding: 15px;
+    }
+
+    .footer-container {
         flex-direction: column;
         align-items: center;
     }
-    ul{
-        flex-direction:column;
-        margin-top: 5%;
 
+    .footer-col {
+        width: 80%;
     }
-    .content, .content2{
-        width: 30%;
+}
 
+@media (max-width: 480px) {
+    .logo a {
+        font-size: 28px;
+    }
+
+    .main2 {
+        padding: 10px;
+    }
+
+    .content, .content2, .content3 {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .footer-col {
+        width: 100%;
+        padding: 10px;
     }
 }
